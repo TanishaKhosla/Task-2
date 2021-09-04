@@ -1,0 +1,10 @@
+.container{
+    font-size: 3rem;
+    color: purple;
+}
+#firstname,#lastname,#address,#number{
+  border: 1px solid pink;  
+  
+    font-size: 2rem;
+    color: purple
+}

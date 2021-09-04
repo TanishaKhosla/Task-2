@@ -1,0 +1,22 @@
+<div class="container">
+<h1>Personal Information</h1>
+
+    <label for="firstName">FirstName:
+    <input id="firstname"type="text" placeholder="Enter your FirstName" [(ngModel)]="fname">
+    </label>
+    <br><br>
+    <label for="lastName">LastName:
+    <input id="lastname"type="text" placeholder="Enter your LasttName"[(ngModel)]="lname">
+    </label>
+    <br><br>
+    <label for="address">Address:
+    <input id="address"type="text" placeholder="Enter your Address"[(ngModel)]="address">
+    </label>
+    <br><br>
+    <label for="number">Number:
+    <input id="number"type="text" placeholder="Enter your contact no."[(ngModel)]="number">
+    </label>
+    <br><br>
+    <button class="btn btn-success" (click)="onSubmit()" type="submit" >SUBMIT</button>
+  </div>  
+    
